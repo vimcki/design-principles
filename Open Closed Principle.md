@@ -10,6 +10,12 @@ The OCP encourages developers to create code that is easy to maintain and update
 
 [[Dependency Inversion Principle]] describes a way to achive OCP
 
+## How to spot violation
+
+1. Abstraction and implementations are in same modules
+1. Importing anything other than abstraction or external stuff inside of implementations in `/internal`
+
 ## Resources
 
 - [Design Principles and Design Patterns - Robert C. Martin](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
+
