@@ -6,7 +6,7 @@ The Open-Closed Principle (OCP) is a software design principle that suggests tha
 
 You should make sure that it is easy to add new functionality without having to modify the existing code. This allows you to add new features or behaviors to your software without introducing bugs or breaking existing functionality.
 
-The OCP encourages developers to create code that is easy to maintain and update over time. By following this principle, you will make your code more [[Ready for Change]] and [[Reusability]]. 
+The OCP encourages developers to create code that is easy to maintain and update over time. By following this principle, you will make your code more [ready for change](https://github.com/vimcki/design-principles/blob/master/Ready%20for%20Change.md) and [reuse](https://github.com/vimcki/design-principles/blob/master/Reusability.md). 
 
 [[Dependency Inversion Principle]] describes a way to achive OCP.
 
