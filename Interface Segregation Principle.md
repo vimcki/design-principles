@@ -1,0 +1,3 @@
+# Interface Segregation Principle
+
+TODO
