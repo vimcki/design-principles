@@ -8,11 +8,11 @@ You should make sure that it is easy to add new functionality without having to 
 
 The OCP encourages developers to create code that is easy to maintain and update over time. By following this principle, you will make your code more [ready for change](https://github.com/vimcki/design-principles/blob/master/Ready%20for%20Change.md) and [reuse](https://github.com/vimcki/design-principles/blob/master/Reusability.md). 
 
-[[Dependency Inversion Principle]] describes a way to achive OCP.
+[Dependency Inversion Principle](https://github.com/vimcki/design-principles/blob/master/Dependency%20Inversion%20Principle.md) describes a way to achive OCP.
 
 ## How to spot violation
 
-1. [[Abstraction]] and implementations are in same module
+1. [Abstraction](https://github.com/vimcki/design-principles/blob/master/Abstraction.md) and implementations are in same module
 1. Importing anything other than abstraction or external stuff(`/pkg`, libraries) inside of implementations in `/internal`
 
 ## Resources
