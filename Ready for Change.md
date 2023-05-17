@@ -12,4 +12,5 @@ In [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos
 
 - [Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
 - [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
+
 #value
