@@ -16,7 +16,7 @@ func dispatch(cfg Config) Service{
 		case: "elasticsearch":
 			searcher = NewElasticSearcher(...)
 		case: "solr":
-		  searcher = NewSolrSearcher(...)
+      searcher = NewSolrSearcher(...)
 
 	return serviceimplementation.NewService(searcher)
 }
