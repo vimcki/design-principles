@@ -1,3 +1,0 @@
-# Ease of Change
-
-#value
