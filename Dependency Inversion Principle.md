@@ -3,7 +3,7 @@
 ## Information
 Dependency inversion principle(DIP) states that high-level modules should not depend on low-level modules. Both should depend on [abstractions](https://github.com/vimcki/design-principles/blob/master/Abstraction.md).
 
-The idea is to reduce the coupling between modules, it leads to code being [easier to change](https://github.com/vimcki/design-principles/blob/master/Ease%20of%20Change.md).
+The idea is to reduce the coupling between modules, it leads to code being [easier to change](https://github.com/vimcki/design-principles/blob/master/Ready%20for%20Change.md).
 
 DIP is a way to achive [Open Closed Principle](https://github.com/vimcki/design-principles/blob/master/Open%20Closed%20Principle.md)
 
