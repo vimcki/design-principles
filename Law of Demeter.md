@@ -1,3 +1,0 @@
-# Law of Demeter
-
-TODO

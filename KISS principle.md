@@ -1,3 +1,0 @@
-# KISS principle
-
-TODO
