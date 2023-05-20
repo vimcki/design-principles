@@ -2,7 +2,7 @@
 
 ## Information
 
-Input Adapters are implementation of the entry points of the application like HTTP/gRPC handlers, UI, or tests. They are responsible for initiating interactions with the [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md) using [ports](https://github.com/vimcki/design-principles/blob/master/Port.md), often translating requests from the outside world into [Domain Objects](https://github.com/vimcki/design-principles/blob/master/Domain%20Objects.md). 
+Input Adapters, also known as Driving or Secondary, are implementation of the entry points of the application like HTTP/gRPC handlers, UI, or tests. They are responsible for initiating interactions with the [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md) using [ports](https://github.com/vimcki/design-principles/blob/master/Port.md), often translating requests from the outside world into [Domain Objects](https://github.com/vimcki/design-principles/blob/master/Domain%20Objects.md). 
 
 Often used input adapters:
 
@@ -12,11 +12,11 @@ Often used input adapters:
 1. console commands,
 1. UI.
 
-Input Adapters are kind of [Adapter](https://github.com/vimcki/design-principles/blob/master/Adapter.md). They are part of [Hexagonal Architecture](https://github.com/vimcki/design-principles/blob/master/Hexagonal%20Architecture.md).
+Input Adapters are kind of [Adapter](https://github.com/vimcki/design-principles/blob/master/Adapter.md) and they are part of [Hexagonal Architecture](https://github.com/vimcki/design-principles/blob/master/Hexagonal%20Architecture.md).
 
 ## Examples
 
-### HTTP handler
+### Server
 
 HTTP handler for graph translation:
 
@@ -38,7 +38,7 @@ handler := handlerTranslator.New(...)
 router.POST("/translate", handler.Translate)
 ```
 
-### Console command
+### Command
 
 Console command for graph translation:
 
