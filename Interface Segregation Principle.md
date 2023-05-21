@@ -63,4 +63,4 @@ func (s *Service) Get (...) (...){
 
 ## Resources
 
-- [wiki - TODO](http://todo.com)
+- [wiki](https://en.wikipedia.org/wiki/Interface_segregation_principle)

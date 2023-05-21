@@ -62,11 +62,10 @@ fmt.Prinln(outputGraph)
 
 ### Tests
 
-Part of a [behavioural testing](https://github.com/vimcki/design-principles/blob/master/Behavioural%20tests.md) suite responsible for creating mocks and running the Consume [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md):
+Part of a testing suite responsible for creating mocks and running the Consume [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md):
 
 ```golang
-//bdd_test.go
-func (f *apiFeature) iProcessTheMessage() error {
+func (f *apiFeature) processTheMessage() error {
 	dpRepoMock, segmentRepoMock := createMocks(...)
 
 	set := build.FlexibleSet(
