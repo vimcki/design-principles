@@ -14,6 +14,7 @@ The OCP encourages developers to create code that is easy to maintain and update
 
 1. [Abstraction](https://github.com/vimcki/design-principles/blob/master/Abstraction.md) and implementations are in same module
 1. Importing anything other than abstraction or external stuff(`/pkg`, libraries) inside of implementations in `/internal`
+1. Switch statements are suspicious, are you absolutely sure that you wont need to add new case in the future? Switches can be replaced with map lookups, which are more extensible and make code more data-driven
 
 ## Resources
 

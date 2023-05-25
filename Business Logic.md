@@ -20,4 +20,4 @@ func validateUsername(username string) bool {
 
 ## Resources
 
-- [wiki] (https://en.wikipedia.org/wiki/Business_logic)
+- [wiki](https://en.wikipedia.org/wiki/Business_logic)

@@ -2,9 +2,9 @@
 
 ## Information
 
-Dynamic Dispatch is a step of a runtime when implementations of interfaces are selected based on configuration of application
+Dynamic Dispatch is a step of a runtime when implementations of interfaces are selected based on configuration of application. Dynamic Dispatch is also operation done on interface to find out concrete type. Here we are talking about step of runtime.
 
-This allows for [feature switching](https://github.com/vimcki/design-principles/blob/master/Feature%20Switch.md) without modyfing the code and rebuilding it
+This stpe allows for [feature switching](https://github.com/vimcki/design-principles/blob/master/Feature%20Switch.md) without modyfing the code and rebuilding it.
 
 ## Example
 
@@ -33,3 +33,4 @@ Here we can see that the implementation of the searcher is selected based on the
 ## Resources 
 
 - [wiki](https://en.wikipedia.org/wiki/Dynamic_dispatch)
+- [Go Generics and Static Dispatch - zackoverflow](https://zackoverflow.dev/writing/go-generics-static-dispatch)

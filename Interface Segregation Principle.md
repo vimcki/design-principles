@@ -16,8 +16,8 @@ type Repository interface {
 	Get(id string) (User, error)
 	Delete(id string) error
 }
-
 ```
+
 ```go
 // service implementation
 type Service strutct {

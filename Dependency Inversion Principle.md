@@ -7,11 +7,9 @@ The idea is to reduce the [coupling](https://github.com/vimcki/design-principles
 
 DIP is a way to achive [Open Closed Principle](https://github.com/vimcki/design-principles/blob/master/Open%20Closed%20Principle.md)
 
-Dependency Injection is a technique to implement DIP.
-
 ## Example
 
-If we have service that needs repository to work we can inject any implementation of repository:
+If we have service that needs repository to work we can inject any implementation of it:
 ```
 real repository, like mongo or postgres
 mock repository for testing
@@ -55,7 +53,7 @@ func dispatch(cfg Config) Service{
 	case "postgres":
 		repository := postgres.NewRepository(cfg.PostgresStuff)
 	case "logging":
-	  repository := logging.NewRepository()
+		repository := logging.NewRepository()
 	}
 
 	return serviceimplementation.NewService(repository)
