@@ -18,7 +18,7 @@ file repository for some static data
 ...
 ```
 
-In this example we have service that needs repository to work. We can inject any implementation during [dynamic dispatch](https://github.com/vimcki/design-principles/blob/master/Dynamic%20Dispatch.md):
+In this example we have service that needs repository to work. We can inject any implementation during [assembling of components](https://github.com/vimcki/design-principles/blob/master/Dependency%20Inversion%20Container.md)
 
 ```go
 // abstract module
@@ -43,8 +43,7 @@ func (s *Service) DoSomething(...) {
 ```
 
 ```go
-// dynamic dispatch
-func dispatch(cfg Config) Service{
+func buildService(cfg Config) Service{
 	var repository Repository
 
 	swich cfg.RepositoryType {
