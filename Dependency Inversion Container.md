@@ -13,49 +13,49 @@ For more information about Dependency Injection see [Dependency Inversion Princi
 Set of components used in executable:
 ```go
 type Set struct {
-	Service domain.Service
-	DebugRepo func() ([]byte, error)
+  Service domain.Service
+  DebugRepo func() ([]byte, error)
 }
 ```
 
 Executable that uses Set of components to create a web server:
 ```go
 func main() {
-	cfg := ...
+  cfg := ...
 
-	set := components.Build(cfg)
+  set := components.Build(cfg)
 
-	...
+  ...
 
-	router.POST("/api/v1/service", set.Service.HttpHandler)
-	router.POST("/debug/get_all", asHttpHandler(set.DebugRepo))
+  router.POST("/api/v1/service", set.Service.HttpHandler)
+  router.POST("/debug/get_all", asHttpHandler(set.DebugRepo))
 
-	...
+  ...
 }
 ```
 
 Implementation of the container:
 ```go
 func Bulid(cfg Config) Set {
-	...
+  ...
 
-	postgresRepo := postgres.NewRepository(...)
-	...
+  postgresRepo := postgres.NewRepository(...)
+  ...
 
-	var searcher FullTextSearcher
+  var searcher FullTextSearcher
 
-	switch cfg.Searcher {
-		case: "elasticsearch":
-			searcher = elastic.NewSearcher(...)
-		case: "solr":
+  switch cfg.Searcher {
+    case: "elasticsearch":
+      searcher = elastic.NewSearcher(...)
+    case: "solr":
       searcher = solr.NewSearcher(...)
 
   service := serviceimplementation.NewService(searcher, repository)
 
-	return Set{
-		Service: service,
-		DebugRepo: postgresRepo.GetAll,
-	}
+  return Set{
+    Service: service,
+    DebugRepo: postgresRepo.GetAll,
+  }
 }
 ```
 Here we can see that the implementation of the searcher is selected based on the configuration of the application, we can:

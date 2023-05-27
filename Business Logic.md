@@ -8,13 +8,13 @@ Business Logic is the part of an application that models the real-world business
 
 ```golang
 func validateUsername(username string) bool {
-	if len(username) < 3 || len(username) > 20 {
-		return false
-	}
-	if containsSpecialCharacters(username) {
-		return false
-	}
-	return true
+  if len(username) < 3 || len(username) > 20 {
+    return false
+  }
+  if containsSpecialCharacters(username) {
+    return false
+  }
+  return true
 }
 ```
 

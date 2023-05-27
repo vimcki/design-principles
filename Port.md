@@ -12,17 +12,17 @@ Entry points:
 
 ```golang
 type Translator interface{
-	Translate(domain.InputGraph) (domain.OutputGraph, error)
+  Translate(domain.InputGraph) (domain.OutputGraph, error)
 }
 ```
 ```golang
 type Bidder interface{
-	Bid(domain.BidRequest) (domain.BidResponse, error)
+  Bid(domain.BidRequest) (domain.BidResponse, error)
 }
 ```
 ```golang
 type Updater interface{
-	Update(domain.UpdateRequest) (domain.User, error)
+  Update(domain.UpdateRequest) (domain.User, error)
 }
 ```
 
@@ -30,12 +30,12 @@ Exit points:
 
 ```golang
 type Repository interface{
-	GetUser(id string) (domain.User, error)
+  GetUser(id string) (domain.User, error)
 }
 ```
 ```golang
 type Search interface{
-	Search(query domain.Query) (domain.Result, error)
+  Search(query domain.Query) (domain.Result, error)
 }
 ```
 

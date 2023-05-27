@@ -23,39 +23,39 @@ In this example we have service that needs repository to work. We can inject any
 ```go
 // abstract module
 type Repository interface {
-	...
+  ...
 }
 ```
 
 ```go
 // service implementation
 type Service struct {
-	repository Repository
+  repository Repository
 }
 
 func NewService(repository Repository) *Service {
-	return &Service{repository: repository}
+  return &Service{repository: repository}
 }
 
 func (s *Service) DoSomething(...) {
-	s.repository.DoSomethingElse(...)
+  s.repository.DoSomethingElse(...)
 }
 ```
 
 ```go
 func buildService(cfg Config) Service{
-	var repository Repository
+  var repository Repository
 
-	swich cfg.RepositoryType {
-	case "mongo":
-		repository := mongo.NewRepository(cfg.MongoStuff)
-	case "postgres":
-		repository := postgres.NewRepository(cfg.PostgresStuff)
-	case "logging":
-		repository := logging.NewRepository()
-	}
+  swich cfg.RepositoryType {
+  case "mongo":
+    repository := mongo.NewRepository(cfg.MongoStuff)
+  case "postgres":
+    repository := postgres.NewRepository(cfg.PostgresStuff)
+  case "logging":
+    repository := logging.NewRepository()
+  }
 
-	return serviceimplementation.NewService(repository)
+  return serviceimplementation.NewService(repository)
 }
 
 ```

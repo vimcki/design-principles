@@ -13,22 +13,22 @@ In the code below there is a violation of ISP, Service depends on user.Repositor
 package user
 
 type Repository interface {
-	Get(id string) (User, error)
-	Delete(id string) error
+  Get(id string) (User, error)
+  Delete(id string) error
 }
 ```
 
 ```go
 // service implementation
 type Service strutct {
-	repo user.Repository
+  repo user.Repository
 }
 
 // all of the services functions
 func (s *Service) Get (...) (...){
-	// some business logic
-	...
-	return s.repo.Get(id)
+  // some business logic
+  ...
+  return s.repo.Get(id)
 }
 ```
 
@@ -39,25 +39,25 @@ And if we split Repository into two Service stops depending on Delete function t
 package user
 
 type GetRepository interface {
-	Get(id string) (User, error)
+  Get(id string) (User, error)
 }
 
 type DeleteRepo interface{
-	Delete(id string) error
+  Delete(id string) error
 }
 
 ```
 ```go
 // service implementation
 type Service strutct {
-	repo user.GetRepository
+  repo user.GetRepository
 }
 
 // all of the services functions
 func (s *Service) Get (...) (...){
-	// some business logic
-	...
-	return s.repo.Get(id)
+  // some business logic
+  ...
+  return s.repo.Get(id)
 }
 ```
 

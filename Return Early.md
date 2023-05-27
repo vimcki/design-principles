@@ -9,32 +9,32 @@ When writing functions make sure to return early. This will help you avoid deepl
 Good:
 ```go
 func doSomething(a string) (string, error) {
-	x, err := doSomethingElse(a)
+  x, err := doSomethingElse(a)
   err != nil {
-		return "", err
-	}
+    return "", err
+  }
 
-	y, err := doAnotherThing(x)
+  y, err := doAnotherThing(x)
   if err != nil {
-		return "", err
-	}
-	z := doSomethingElseAgain(y)
+    return "", err
+  }
+  z := doSomethingElseAgain(y)
 
-	return z, nil
+  return z, nil
 }
 ```
 Bad:
 ```go
 func doSomething(a string) (string, error) {
-	x, err := doSomethingElse(a)
-	if err == nil {
-		y, err := doAnotherThing(x)
-		if err == nil {
-			z := doSomethingElseAgain(y)
-			return z, nil
-		}
-	}
+  x, err := doSomethingElse(a)
+  if err == nil {
+    y, err := doAnotherThing(x)
+    if err == nil {
+      z := doSomethingElseAgain(y)
+      return z, nil
+    }
+  }
 
-	return "", err
+  return "", err
 }
 ```

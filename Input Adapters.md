@@ -22,13 +22,13 @@ HTTP handler for graph translation:
 
 ```golang
 func (h *Handler) Translate(rw http.ResponseWriter, req *http.Request){
-	inputGraph, err := h.converter.Convert(req.Body)
-	if err ...
+  inputGraph, err := h.converter.Convert(req.Body)
+  if err ...
 
-	outputGraph, err := h.translator.Translate(inputGraph)
-	if err ...
+  outputGraph, err := h.translator.Translate(inputGraph)
+  if err ...
 
-	writeResponse(rw, outputGraph)
+  writeResponse(rw, outputGraph)
 }
 ```
 
@@ -66,18 +66,18 @@ Part of a testing suite responsible for creating mocks and running the Consume [
 
 ```golang
 func (f *apiFeature) processTheMessage() error {
-	dpRepoMock, segmentRepoMock := createMocks(...)
+  dpRepoMock, segmentRepoMock := createMocks(...)
 
-	set := build.FlexibleSet(
-	    f.cfg, dpRepoMock, segmentRepoMock,
-	)
+  set := build.FlexibleSet(
+      f.cfg, dpRepoMock, segmentRepoMock,
+  )
 
-	message := attribute.AttrChangeMsg{}
+  message := attribute.AttrChangeMsg{}
 
-	err := json.Unmarshal([]byte(f.message), &message)
-	if err ...
+  err := json.Unmarshal([]byte(f.message), &message)
+  if err ...
 
-	return set.Consumer.Consume(message)
+  return set.Consumer.Consume(message)
 }
 ```
 
