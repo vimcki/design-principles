@@ -2,7 +2,16 @@
 
 ## Information
 
-Quality of code that is easy to change in the future. This is the most important quality.
+Quality of code that is easy to change in the future. It means that code is:
+
+1. maintainable,
+1. easy to understand,
+1. easy to extend,
+1. easy to refactor.
+
+Focusing on this means that you try to minimise costs of future development.
+
+This is the most important quality.
 
 In [Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) book there its called ETC: Easy to Change.
 
