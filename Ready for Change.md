@@ -9,7 +9,7 @@ Quality of code that is easy to change in the future. It means that code is:
 1. easy to extend,
 1. easy to refactor.
 
-Focusing on this means that you try to minimise costs of future development.
+Focusing on this means that you try to minimise costs of future development and speed at which you can deliver new features.
 
 This is the most important quality.
 
