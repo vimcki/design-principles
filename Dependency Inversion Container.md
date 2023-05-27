@@ -1,12 +1,12 @@
-# Dependency Injection Container
+# Dependency Inversion Container
 
 ## Information
 
-Dependendy Injection Container is a [Facade](https://github.com/vimcki/design-principles/blob/master/Facade.md) between executables and internal modules of an application. It is a step of a runtime when implementations of interfaces are selected based on configuration of application. It happens before launching real processing.
+Dependendy Inversion Container is a [Facade](https://github.com/vimcki/design-principles/blob/master/Facade.md) between executables and internal modules of an application. It is a step of a runtime when implementations of interfaces are selected based on configuration of application. It happens before launching real processing.
 
 This step allows for [feature switching](https://github.com/vimcki/design-principles/blob/master/Feature%20Switch.md) without modyfing the code and rebuilding it.
 
-For more information about Dependency Injection see [Dependency Injection Principle](https://github.com/vimcki/design-principles/blob/master/Dependency%20Injection%20Principle.md).
+For more information about Dependency Injection see [Dependency Inversion Principle](https://github.com/vimcki/design-principles/blob/master/Dependency%20Inversion%20Principle.md).
 
 ## Example
 
