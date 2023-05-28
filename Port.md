@@ -42,3 +42,5 @@ type Search interface{
 ## Resources
 
 - its a part of [Hexagonal Architecture](https://github.com/vimcki/design-principles/blob/master/Hexagonal%20Architecture.md), so look there
+
+metadata=This page dives into the concept of Ports in Hexagonal Architecture, explaining how they act as entry and exit points to and from Business Logic. It distinguishes between Entry Point Ports and Exit Point Ports, outlining their roles and usage within Input and Output Adapters. It also provides code examples to illustrate how these concepts work in practice, with emphasis on the use of Domain Objects in these operations. A must-read for anyone interested in understanding the intricacies of Hexagonal Architecture.

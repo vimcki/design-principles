@@ -64,3 +64,5 @@ func (s *Service) Get (...) (...){
 ## Resources
 
 - [wiki](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+
+metadata=Learn about the Interface Segregation Principle (ISP), a fundamental concept in object-oriented design that states no client should be forced to depend on interfaces they do not use. This page presents an example of ISP violation and how to correct it by splitting a single, large interface into two smaller and more specific ones. Understand how this principle contributes to cleaner, more maintainable code.

@@ -12,3 +12,5 @@ By isolating these external interactions in separate adapters, the core [Busines
 - [Ports & Adapters Architecture - @hgraca](https://herbertograca.com/2017/09/14/ports-adapters-architecture/)
 
 #pattern
+
+metadata=Dive into Hexagonal Architecture, also known as Ports and Adapters, a design pattern promoting the separation of concerns. Understand how this pattern centers the core Business Logic, isolating it from external systems using ports and adapters. Discover how this architecture boosts flexibility, maintainability, and independent testing of each component, keeping the core logic pristine amid external technology changes.

@@ -21,3 +21,5 @@ The OCP encourages developers to create code that is easy to maintain and update
 - [Design Principles and Design Patterns - Robert C. Martin](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
 
 #principle
+
+metadata=Dive into the Open-Closed Principle (OCP), a crucial design principle in software development. This principle encourages the creation of software entities that are open for extension but closed for modification, promoting maintainability and scalability. This page elaborates on the principle, provides guidance on identifying violations, and explores the connection between OCP and the Dependency Inversion Principle. A must-read for software developers aiming to write sustainable and future-proof code.

@@ -10,3 +10,5 @@ SOLID is an acronym for some of the design principles, they are:
 
 ## Resources
 - [wiki](https://en.wikipedia.org/wiki/SOLID)
+
+metadata=This content introduces SOLID, a set of five design principles widely accepted in the field of software development, including Single Responsibility Principle, Open Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle. Though the Liskov Substitution Principle is generally not applicable to Golang, the rest of the principles are crucial to creating robust, maintainable, and scalable software. This content is an excellent resource for software developers interested in best practices in software design.

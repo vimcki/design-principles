@@ -84,3 +84,5 @@ func (f *apiFeature) processTheMessage() error {
 ## Resources
 
 - its a part of [Hexagonal Architecture](https://github.com/vimcki/design-principles/blob/master/Hexagonal%20Architecture.md), so look there
+
+metadata=Explore Input Adapters in Hexagonal Architecture, including HTTP/gRPC handlers, UI, and testing. Understand how these driving or secondary adapters initiate interactions with Business Logic, translating external requests into Domain Objects. Discover examples of different types of Input Adapters, including server handlers, console commands, and testing suites.
