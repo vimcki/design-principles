@@ -13,7 +13,7 @@ Sometimes 2 pieces of knowledge have the same representation, its just a coincid
 
 ## Example
 
-### Two pieces of knowledge with the same implementation(coincidence)
+### Two pieces of knowledge
 
 When you have 2 pieces of knowledge for example a username and a post title validations, and they both have the same implementation, but they are not related, don't combine them into one.
 
@@ -24,9 +24,11 @@ func validateUsername(username string) error {
 	if len(username) < 3 || len(username) > 20 {
 		return errors.New("username must be ...")
 	}
+
 	if !alphanumericRegex.MatchString(username) {
 		return errors.New("username must only ...")
 	}
+
 	return nil
 }
 ```
@@ -38,9 +40,11 @@ func validatePostTitle(postTitle string) error {
 	if len(postTitle) < 3 || len(postTitle) > 20 {
 		return errors.New("post title must be ...")
 	}
+
 	if !aplhanumericRegex.MatchString(postTitle) {
 		return errors.New("post title must only ...")
 	}
+
 	return nil
 }
 ```
@@ -57,9 +61,11 @@ func ValidateUsername(username string) error {
 	if len(username) < 3 || len(username) > 20 {
 		return errors.New("username must be ...")
 	}
+
 	if !alphanumericRegex.MatchString(username) {
 		return errors.New("username must only ...")
 	}
+
 	return nil
 }
 ```
