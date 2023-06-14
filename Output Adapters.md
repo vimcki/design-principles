@@ -55,7 +55,7 @@ func (r *Repo) Update(ud domain.UpdateData) (domain.User, error){
 }
 ```
 
-But we can implement any other output adapter, for example one that prints data to stdout for debugging or reduction in infrastructure requirements for development. Other reason we might implement this before real database adapter is that we want to push deciding which database we want to use to later stages of development.
+But we can implement any other output adapter, for example one that prints data to stdout for debugging or reduction in infrastructure requirements for development. Other reason we might implement this before real database adapter is that we want to postpone deciding which database we want to use to later stages of development when we know more about the problem.
 
 ```golang
 package stdout

@@ -18,6 +18,7 @@ func doSomething(a string) (string, error) {
   if err != nil {
     return "", err
   }
+
   z := doSomethingElseAgain(y)
 
   return z, nil
@@ -31,6 +32,7 @@ func doSomething(a string) (string, error) {
     y, err := doAnotherThing(x)
     if err == nil {
       z := doSomethingElseAgain(y)
+
       return z, nil
     }
   }

@@ -2,7 +2,7 @@
 
 ## Information
 
-Input Adapters, also known as driving or secondary, are implementation of the entry points of the application like HTTP/gRPC handlers, UI, or tests. They are responsible for initiating interactions with the [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md) using [ports](https://github.com/vimcki/design-principles/blob/master/Port.md), often translating requests from the outside world into [Domain Objects](https://github.com/vimcki/design-principles/blob/master/Domain%20Objects.md). 
+Input Adapters, also known as driving or secondary, are implementation of the entry points of the application like HTTP/gRPC handlers, UI, or tests. They are responsible for calling [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md) using [ports](https://github.com/vimcki/design-principles/blob/master/Port.md), often translating requests from the outside world into [Domain Objects](https://github.com/vimcki/design-principles/blob/master/Domain%20Objects.md). 
 
 Often used input adapters:
 
