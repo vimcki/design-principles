@@ -22,10 +22,10 @@ Username:
 ```go
 func validateUsername(username string) error {
 	if len(username) < 3 || len(username) > 20 {
-		return errors.New("username must be between 3 and 20 characters")
+		return errors.New("username must be ...")
 	}
 	if !alphanumericRegex.MatchString(username) {
-		return errors.New("username must only contain alphanumeric characters")
+		return errors.New("username must only ...")
 	}
 	return nil
 }
@@ -36,10 +36,10 @@ Post title:
 ```go
 func validatePostTitle(postTitle string) error {
 	if len(postTitle) < 3 || len(postTitle) > 20 {
-		return errors.New("post title must be between 3 and 20 characters")
+		return errors.New("post title must be ...")
 	}
 	if !aplhanumericRegex.MatchString(postTitle) {
-		return errors.New("post title must only contain alphanumeric characters")
+		return errors.New("post title must only ...")
 	}
 	return nil
 }
@@ -50,13 +50,15 @@ If you would combine them and later you buisness rules change, you would have to
 ### Breaking DRY principle
 
 ```go
-# ValidateUsername checks if username length is between 3 and 20 characters and if it contains only alphanumeric characters
+// ValidateUsername checks if username length 
+// is between 3 and 20 characters and if it 
+// contains only alphanumeric characters
 func ValidateUsername(username string) error {
 	if len(username) < 3 || len(username) > 20 {
-		return errors.New("username must be between 3 and 20 characters")
+		return errors.New("username must be ...")
 	}
 	if !alphanumericRegex.MatchString(username) {
-		return errors.New("username must only contain alphanumeric characters")
+		return errors.New("username must only ...")
 	}
 	return nil
 }
