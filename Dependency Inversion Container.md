@@ -36,7 +36,7 @@ func main() {
 
 Implementation of the container:
 ```go
-func Bulid(cfg Config) Set {
+func Build(cfg Config) Set {
   ...
 
   postgresRepo := postgres.NewRepository(...)
