@@ -12,5 +12,3 @@ Aim of [Single Responsibility Principle](https://github.com/vimcki/design-princi
 - [wiki](https://en.wikipedia.org/wiki/Cohesion_(computer_science))
 
 #value
-
-metadata=Explore the key software design concept of Cohesion, highlighting its significance in aligning module responsibilities. Learn how high Cohesion contributes to improved maintainability, understanding, and testing of applications, following the 'Low Coupling, High Cohesion' software design principle. Understand its association with the Single Responsibility Principle. Find additional resources for in-depth knowledge.

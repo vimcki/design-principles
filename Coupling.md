@@ -10,5 +10,3 @@ Coupling is the degree to which one module relies on another module. Low couplin
 - [wiki](https://en.wikipedia.org/wiki/Coupling_(computer_programming))
 
 #value
-
-metadata=Gain insights into the crucial software design concept of Coupling, detailing the interdependence of modules. Understand how low Coupling, achieved through Abstraction and adherence to the Open Closed Principle, signifies well-structured code. Uncover the importance of the 'Low Coupling, High Cohesion' mantra in quality software design. Explore additional resources for comprehensive understanding.

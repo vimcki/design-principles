@@ -72,5 +72,3 @@ func (r *Repo) Update(ud domain.UpdateData) (domain.User, error){
 ## Resources
 
 - its a part of [Hexagonal Architecture](https://github.com/vimcki/design-principles/blob/master/Hexagonal%20Architecture.md), so look there
-
-metadata=Explore the integral role of Output Adapters in Hexagonal Architecture. These components manage the application's interactions with the outside world, translating Domain Objects into an external format and vice versa. From databases and queues to external APIs, Output Adapters ensure the integrity of core business logic. This page provides insightful examples of how they function and how they can be implemented in various scenarios, from real database interactions to debugging with stdout.

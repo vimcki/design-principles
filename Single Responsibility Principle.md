@@ -18,5 +18,3 @@ There is one exception to this rule, application entrypoint (like `main.go`) whe
 - just google it, I don't have anything good to share
 
 #principle
-
-metadata=This article discusses the Single Responsibility Principle (SRP) in software design, which emphasizes that a class or module should have only one reason to change, thereby enhancing the system's modularity and maintainability. The text offers valuable insights into how to spot SRP violations and considers the subjective nature of this principle in the context of different programming approaches. The content is especially beneficial for software developers looking to understand and apply best practices in their coding process.

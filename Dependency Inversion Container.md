@@ -69,5 +69,3 @@ Here we can see that the implementation of the searcher is selected based on the
 ## Resources 
 
 TODO
-
-metadata=Unravel the concept of Dependency Inversion Container as a Facade in application design, its role in implementation selection based on application configuration, and impact on feature switching. See a practical example with components in an executable and its implementation. Learn about its versatility in AB testing, outage handling, implementation rollback, client-specific deployment, and debugging, testing.

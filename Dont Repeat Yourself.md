@@ -11,6 +11,8 @@ The DRY principle states that "Every piece of knowledge must have a single, unam
 
 Sometimes 2 pieces of knowledge have the same representation, its just a coincidence, don't combine them into one if you see "the same" code in 2 places.
 
+This principle comes from the [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/).
+
 ## Example
 
 ### Two pieces of knowledge
@@ -78,5 +80,3 @@ Here we repeat the same piece of knowledge, comment and code both describe user 
 - [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
 
 #principle
-
-metadata=Learn about the DRY (Don't Repeat Yourself) principle and its importance in software development. Understand how every piece of knowledge should have a single, unambiguous representation within a system, including business logic, documentation, build scripts, database schema, and tests. Explore examples illustrating the concept of coincidental similarities and the risks of breaking the DRY principle. Discover the potential pitfalls and benefits of adhering to this principle in your codebase.

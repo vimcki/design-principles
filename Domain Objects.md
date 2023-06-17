@@ -18,5 +18,3 @@ type User struct {
   UpdatedAt time.Time
 }
 ```
-
-metadata=Explore the role of Domain Objects in software design, particularly as the entities used by Business Logic. Understand the recommendation to define these objects in abstract modules. View a practical example of a simple User struct, a common type of Domain Object in many applications.

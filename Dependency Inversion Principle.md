@@ -65,5 +65,3 @@ func buildService(cfg Config) Service{
 - [Design Principles and Design Patterns - Robert C. Martin](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
 
 #principle
-
-metadata=Delve into the Dependency Inversion Principle (DIP) in software design, which advocates for dependence on abstractions, not on concrete implementations. Discover how DIP contributes to reduced module coupling and enhanced code flexibility, and its role in achieving the Open Closed Principle. Understand DIP with practical examples, illustrating injection of varied repository implementations for different requirements.

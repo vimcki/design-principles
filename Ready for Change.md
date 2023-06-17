@@ -23,5 +23,3 @@ In [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos
 - [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
 
 #value
-
-metadata=This page explores the essential quality of 'Ready for Change' in software development. It underscores the significance of maintainability, comprehensibility, extensibility, and easy refactoring in producing code that is adaptable to future modifications. Discussing the insights from industry thought leaders like Uncle Bob and references from the Pragmatic Programmer book, it delves into the consequences of neglecting this principle, such as code rot and reduced agility in delivering new features. A valuable read for anyone seeking to enhance their software design skills and future-proof their codebase.

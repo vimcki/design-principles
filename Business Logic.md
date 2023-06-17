@@ -21,5 +21,3 @@ func validateUsername(username string) bool {
 ## Resources
 
 - [wiki](https://en.wikipedia.org/wiki/Business_logic)
-
-metadata=Dive into the essence of Business Logic in application development. Understand how it models real-world business rules, dictating data creation, storage, and modifications. Discover its interaction with adapters, the concept of ports, and operation on Domain Objects, exemplified through a username validation function. Additional resources available.
