@@ -6,36 +6,75 @@ Port is entry/exit point to/from [Business Logic](https://github.com/vimcki/desi
 
 ## Examples
 
-In examples there is package called domain used to emphesize that arguments and return values are [Domain Objects](https://github.com/vimcki/design-principles/blob/master/Domain%20Objects.md). In practice they probably should be defined in the same module as ports.
+Note that in the examples below, argument structs are defined in the same package as the interface.
 
 Entry points:
 
 ```golang
+type InputGraph struct{
+	...
+}
+
+type OutputGraph struct{
+	...
+}
+
 type Translator interface{
-  Translate(domain.InputGraph) (domain.OutputGraph, error)
+  Translate(InputGraph) (OutputGraph, error)
 }
 ```
+
 ```golang
+type BidRequest struct{
+	...
+}
+
+type BidResponse struct{
+	...
+}
+
 type Bidder interface{
-  Bid(domain.BidRequest) (domain.BidResponse, error)
+  Bid(BidRequest) (BidResponse, error)
 }
 ```
+
 ```golang
+type UpdateRequest struct{
+	...
+}
+
+type User struct{
+	...
+}
+
 type Updater interface{
-  Update(domain.UpdateRequest) (domain.User, error)
+  Update(UpdateRequest) (User, error)
 }
 ```
 
 Exit points:
 
 ```golang
+type User struct{
+	...
+}
+
 type Repository interface{
-  GetUser(id string) (domain.User, error)
+  GetUser(id string) (User, error)
 }
 ```
+
 ```golang
+type Query struct{
+	...
+}
+
+type Result struct{
+	...
+}
+
 type Search interface{
-  Search(query domain.Query) (domain.Result, error)
+  Search(Query) (Result, error)
 }
 ```
 

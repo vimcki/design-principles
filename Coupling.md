@@ -46,7 +46,7 @@ This is not good. Problems:
 1. we can't change underlying service(mongo) without changing service package,
 1. we can't test service package without running mongo,
 1. we can't reuse service package with other database,
-1. service package has to know about host, username, password.
+1. service package has to know about host, username, password,
 1. if we would like to move from host, username, password to connection string we would have to change service package, we relay on mongo package implementation details.
 
 Solution would be to use [Abstraction](https://github.com/vimcki/design-principles/blob/master/Abstraction.md), in this case repository interface and [dependency incject](https://github.com/vimcki/design-principles/blob/master/Dependency%20Inversion%20Principle.md) concrete implementation of repository.
