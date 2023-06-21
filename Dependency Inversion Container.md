@@ -2,9 +2,9 @@
 
 ## Information
 
-Dependendy Inversion Container is a [Facade](https://github.com/vimcki/design-principles/blob/master/Facade.md) between executables and internal modules of an application. It is a step of a runtime when implementations of interfaces are selected based on configuration of application. It happens before launching real processing.
+Dependency Inversion Container is a [Facade](https://github.com/vimcki/design-principles/blob/master/Facade.md) between executables and internal modules of an application. It is a step of a runtime when implementations of interfaces are selected based on configuration of application. It happens before launching real processing.
 
-This step allows for [feature switching](https://github.com/vimcki/design-principles/blob/master/Feature%20Switch.md) without modyfing the code and rebuilding it.
+This step allows for [feature switching](https://github.com/vimcki/design-principles/blob/master/Feature%20Switch.md) without modifying the code and rebuilding it.
 
 For more information about Dependency Injection see [Dependency Inversion Principle](https://github.com/vimcki/design-principles/blob/master/Dependency%20Inversion%20Principle.md).
 
@@ -64,8 +64,8 @@ Here we can see that the implementation of the searcher is selected based on the
 1. easily turn off features that depend on unstable backing services during outages,
 1. rollback to non experimental and more stable implementation,
 1. deploy application for different business clients with different backing services,
-1. run the application with mocks/logs for debugging or testin.
+1. run the application with mocks/logs for debugging or testing.
 
 ## Resources 
 
-TODO
+- [Inversion of Control Containers and the Dependency Injection pattern - Martin Fowler](https://martinfowler.com/articles/injection.html)

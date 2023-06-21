@@ -51,7 +51,7 @@ func validatePostTitle(postTitle string) error {
 }
 ```
 
-If you would combine them and later you buisness rules change, you would have to split them back again or add logic to the function which would make it less readable.
+If you would combine them and later you business rules change, you would have to split them back again or add logic to the function which would make it less readable.
 
 ### Breaking DRY principle
 
@@ -72,7 +72,7 @@ func ValidateUsername(username string) error {
 }
 ```
 
-Here we repeat the same piece of knowledge, comment and code both describe user validation. Here its easy to update code if [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md) needs updateing, and forget about updating the comment. Imagine later on someone reads the comment and doesn't read the code...
+Here we repeat the same piece of knowledge, comment and code both describe user validation. Here its easy to update code if [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md) needs updating, and forget about updating the comment. Imagine later on someone reads the comment and doesn't read the code...
 
 ## Resources
 

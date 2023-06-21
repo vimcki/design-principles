@@ -5,7 +5,7 @@ Dependency inversion principle(DIP) states that high-level modules should not de
 
 The idea is to reduce the [coupling](https://github.com/vimcki/design-principles/blob/master/Coupling.md) between modules, it leads to code being [easier to change](https://github.com/vimcki/design-principles/blob/master/Ready%20for%20Change.md).
 
-DIP is a way to achive [Open Closed Principle](https://github.com/vimcki/design-principles/blob/master/Open%20Closed%20Principle.md)
+DIP is a way to achieve [Open Closed Principle](https://github.com/vimcki/design-principles/blob/master/Open%20Closed%20Principle.md)
 
 ## Example
 

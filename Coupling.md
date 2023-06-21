@@ -2,7 +2,7 @@
 
 ## Information
 
-Coupling is the degree to which one module relies on another module. High coupling between two modules might lead to changes in one affecting the other. This makes code harder to maintain. Low coupling is often a sign of a well-structured code. Its achived by using [Abstraction](https://github.com/vimcki/design-principles/blob/master/Abstraction.md) and following [Open Closed Principle](https://github.com/vimcki/design-principles/blob/master/Open%20Closed%20Principle.md). "Low Coupling, High [Cohesion](https://github.com/vimcki/design-principles/blob/master/Cohesion.md)" is often a slogan for well structured code. Less coupling is better but you have to have some coupling, so not all of it is bad, just bad coupling is bad.
+Coupling is the degree to which one module relies on another module. High coupling between two modules might lead to changes in one affecting the other. This makes code harder to maintain. Low coupling is often a sign of a well-structured code. Its achieved by using [Abstraction](https://github.com/vimcki/design-principles/blob/master/Abstraction.md) and following [Open Closed Principle](https://github.com/vimcki/design-principles/blob/master/Open%20Closed%20Principle.md). "Low Coupling, High [Cohesion](https://github.com/vimcki/design-principles/blob/master/Cohesion.md)" is often a slogan for well structured code. Less coupling is better but you have to have some coupling, so not all of it is bad, just bad coupling is bad.
 
 ## Types of Coupling
 
@@ -49,7 +49,7 @@ This is not good. Problems:
 1. service package has to know about host, username, password,
 1. if we would like to move from host, username, password to connection string we would have to change service package, we relay on mongo package implementation details.
 
-Solution would be to use [Abstraction](https://github.com/vimcki/design-principles/blob/master/Abstraction.md), in this case repository interface and [dependency incject](https://github.com/vimcki/design-principles/blob/master/Dependency%20Inversion%20Principle.md) concrete implementation of repository.
+Solution would be to use [Abstraction](https://github.com/vimcki/design-principles/blob/master/Abstraction.md), in this case repository interface and [dependency inject](https://github.com/vimcki/design-principles/blob/master/Dependency%20Inversion%20Principle.md) concrete implementation of repository.
 
 ## Resources
 
