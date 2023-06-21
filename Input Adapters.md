@@ -18,6 +18,8 @@ Input Adapters are kind of [Adapter](https://github.com/vimcki/design-principles
 
 ## Examples
 
+All examples below are implementations of input adapters.
+
 ### Server
 
 HTTP handler for graph translation:
@@ -27,6 +29,7 @@ func (h *Handler) Translate(rw http.ResponseWriter, req *http.Request){
   inputGraph, err := h.converter.Convert(req.Body)
   if err ...
 
+	// calling into Business Logic using port(interface)
   outputGraph, err := h.translator.Translate(inputGraph)
   if err ...
 
@@ -56,6 +59,7 @@ err := json.Unmarshal(data, &inputGraph)
 if err ...
 
 
+// calling into Business Logic using port(interface)
 outputGraph, err := translator.Translate(inputGraph)
 if err ...
 
@@ -64,7 +68,7 @@ fmt.Prinln(outputGraph)
 
 ### Tests
 
-Part of a testing suite responsible for creating mocks and running the Consume [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md):
+This is part of a testing suite responsible for creating mocks and running the Consume [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md):
 
 ```golang
 func (f *apiFeature) processTheMessage() error {
@@ -79,6 +83,7 @@ func (f *apiFeature) processTheMessage() error {
   err := json.Unmarshal([]byte(f.message), &message)
   if err ...
 
+	// calling into Business Logic using port(interface)
   return set.Consumer.Consume(message)
 }
 ```
