@@ -14,6 +14,8 @@ Often used input adapters:
 
 Input Adapters are kind of [Adapter](https://github.com/vimcki/design-principles/blob/master/Adapter.md) and they are part of [Hexagonal Architecture](https://github.com/vimcki/design-principles/blob/master/Hexagonal%20Architecture.md).
 
+![Hexagonal Architecture](/images/hex.svg)
+
 ## Examples
 
 ### Server

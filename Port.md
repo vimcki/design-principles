@@ -4,6 +4,8 @@
 
 Port is entry/exit point to/from [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md). Entry point ports are a set of interfaces that define the operations the application can perform. Exit point ports define external resources that application will require to work. Ports are a part of [Hexagonal Architecture](https://github.com/vimcki/design-principles/blob/master/Hexagonal%20Architecture.md). Entry point ports are used by [input adapters](https://github.com/vimcki/design-principles/blob/master/Adapter.md). Implementations of exit poits are called [output adapters](https://github.com/vimcki/design-principles/blob/master/Adapter.md).
 
+![Hexagonal Architecture](/images/hex.svg)
+
 ## Examples
 
 Note that in the examples below, argument structs are defined in the same package as the interface.

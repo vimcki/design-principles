@@ -6,7 +6,7 @@ Hexagonal Architecture, also known as Ports and Adapters is a design pattern tha
 
 By isolating these external interactions in separate adapters, the core [Business Logic](https://github.com/vimcki/design-principles/blob/master/Business%20Logic.md) remains clean, and changes in external technologies have minimal impact on the core.
 
-![Hexagonal Architecture](https://github.com/vimcki/design-principles/blob/master/images/hex.svg)
+![Hexagonal Architecture](/images/hex.svg)
 
 ## Resources
 
