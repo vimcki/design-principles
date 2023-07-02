@@ -20,6 +20,7 @@ In [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos
 ## Resources
 
 - [Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+- [One Rule to Rule Them All • Pragmatic Dave Thomas • YOW! 2022](https://www.youtube.com/watch?v=QvK3Pxmwcyc)
 - [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
 
 #value
