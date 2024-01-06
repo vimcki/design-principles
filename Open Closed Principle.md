@@ -19,5 +19,3 @@ The OCP encourages developers to create code that is easy to maintain and update
 ## Resources
 
 - [Design Principles and Design Patterns - Robert C. Martin](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
-
-#principle

@@ -9,5 +9,3 @@ In [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos
 ## Read more
 
 - [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
-
-#value

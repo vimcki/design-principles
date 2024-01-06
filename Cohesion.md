@@ -10,5 +10,3 @@ Aim of [Single Responsibility Principle](https://github.com/vimcki/design-princi
 
 - [Design Principles and Design Patterns - Robert C. Martin](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
 - [wiki](https://en.wikipedia.org/wiki/Cohesion_(computer_science))
-
-#value

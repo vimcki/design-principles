@@ -78,5 +78,3 @@ Here we repeat the same piece of knowledge, comment and code both describe user 
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 - [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
-
-#principle

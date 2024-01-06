@@ -55,5 +55,3 @@ Solution would be to use [Abstraction](https://github.com/vimcki/design-principl
 
 - [Design Principles and Design Patterns - Robert C. Martin](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
 - [wiki](https://en.wikipedia.org/wiki/Coupling_(computer_programming))
-
-#value

@@ -12,5 +12,3 @@ By isolating these external interactions in separate adapters, the core [Busines
 
 - [wiki](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
 - [Ports & Adapters Architecture - @hgraca](https://herbertograca.com/2017/09/14/ports-adapters-architecture/)
-
-#pattern

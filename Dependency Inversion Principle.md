@@ -63,5 +63,3 @@ func buildService(cfg Config) Service{
 ## Resources
 
 - [Design Principles and Design Patterns - Robert C. Martin](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf)
-
-#principle

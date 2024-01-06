@@ -16,5 +16,3 @@ There is one exception to this rule, application entrypoint (like `main.go`) whe
 ## Resources
 
 - I heard that there is a nice explanation of SRP in **Clean Architecture: A Craftsman's Guide to Software Structure and Design** - Robert C. Martin
-
-#principle
